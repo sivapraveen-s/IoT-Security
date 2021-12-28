@@ -52,6 +52,7 @@ TLS and SSL both are protocols that helps you securely authenticate and transpor
 ### TLS and SSL work to secure Data
 
 <p align = "left">
+
 - When you install an SSL/TLS certificate on your web server (often called as SSL certificate) it includes a public key and private key that authenticate server and let server encrypt and decrypt data
      
 - when client goes on site, the web browser will look for client site's SSL/TLS ceritificate. Then the client browser will perform a handshake to check and validate of client certificate and autheticate.
