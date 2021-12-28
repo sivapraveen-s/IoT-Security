@@ -51,6 +51,7 @@ TLS and SSL both are protocols that helps you securely authenticate and transpor
 
 ### TLS and SSL work to secure Data
 
+<p align = "left">
      When you install an SSL/TLS certificate on your web server (often called as SSL certificate) it includes a public key and private key that authenticate server and let server encrypt and decrypt data
      
      when client goes on site, the web browser will look for client site's SSL/TLS ceritificate. Then the client browser will perform a handshake to check and validate of client certificate and autheticate.
@@ -64,9 +65,11 @@ TLS and SSL both are protocols that helps you securely authenticate and transpor
      While Plain HTTP that information is vulnerable to attacks. But when you use HTTP over SSL or TLS (HTTPS) you encrypt and authenticate that data during transport which makes it secure.
      
      This is why we can safely process money transactions details over HTTPS but not over HTTP.
+     </p>
      
 ### Why SSL still holds on?
-
+<p align = "left">
+     
      TLS is the more recent version of SSL and that both public released of SSL have been deprecated for multiple years and contain known security vulnerabilities.
      
      But still is it called an SSL ceritificate and not a TLS ceritificate, reason why most people still refer to them as SSL certificates is basically a branding issue. Most major certificate providers still refer to certificates as SSL certificates, which is why the naming convention persists.
@@ -74,5 +77,6 @@ TLS and SSL both are protocols that helps you securely authenticate and transpor
      In reality all the SSL Certificates, that you see advertised are really ***SSL/TLS Certificates***
      We can use both SSL and TLS protocols with Single handled certificates
      There's no such thing as just an SSL Certificate or Just a TLS certificate and you don't need to worry about replacing Your SSL ceritifcates with a TLS Certificate
+     </p>
      
-Note: We can also Replace TLS instead of SSL with same certificate
+**Note:** We can also Replace TLS instead of SSL with same certificate
